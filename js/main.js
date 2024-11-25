@@ -920,9 +920,8 @@ document.addEventListener('DOMContentLoaded', () => {
       fn()
     })
   })
-})
-
-
+  
+  
 /*建站时间js*/
 var blog_running_years = document.getElementById("blog_running_years");
 var blog_running_months = document.getElementById("blog_running_months");
@@ -956,3 +955,6 @@ if (typeof bottomTimeIntervalHasSet == "undefined") {
         refresh_blog_running_time();
     }, 500);
 }
+  
+})
+
