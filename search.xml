@@ -4,6 +4,62 @@
   
     
     <entry>
+      <title>安卓设备Cloudflare内网穿透</title>
+      <link href="/2024/11/30/Cloudflare%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+      <url>/2024/11/30/Cloudflare%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>步骤1：安装Termux</p><p>• 打开你的安卓设备上的Google Play商店。</p><p>• 搜索“Termux”。</p><p>• 安装Termux应用。</p><p>步骤2：安装Cloudflared</p><p>• 打开Termux应用。</p><p>• 输入以下命令来更新软件包列表并安装wget：</p><p>• 下载Cloudflared：</p><p>这个命令下载了最新版本的Cloudflared（适用于arm64架构的设备，如果你的设备是其他架构，请选择相应的版本）。</p><p>• 给Cloudflared添加执行权限：</p><p>步骤3：注册Cloudflare账号并登录Cloudflared</p><p>• 访问Cloudflare官网并注册一个账号：<a href=""></a>。</p><p>• 登录你的Cloudflare账号。</p><p>• 在Termux中，运行Cloudflared并登录：</p><p>按照提示操作，它会生成一个链接，复制这个链接到浏览器中，登录你的Cloudflare账号，然后授权Cloudflared。</p><p>步骤4：配置Cloudflared</p><p>• 创建一个配置文件<code>config.yml</code>：</p><p>这里假设你的内网服务运行在8080端口上。</p><p>• 创建一个Tunnel：</p><p>替换<code>my-tunnel</code>为你的Tunnel名称。</p><p>• 配置Tunnel使用你的配置文件：</p><p>替换<code>my-tunnel.example.com</code>为你的域名。</p><p>步骤5：启动Tunnel</p><p>• 启动Tunnel：</p><p>这个命令会启动Tunnel，将本地的8080端口映射到Cloudflare的网络。</p><p>步骤6：测试连接</p><p>• 访问<code>http://my-tunnel.example.com</code>，你应该能够看到你的内网服务。</p><p>注意事项</p><p>• 确保你的安卓设备有稳定的网络连接。</p><p>• 由于安卓设备的网络环境可能比较复杂，Cloudflared可能需要一些额外的配置来适应不同的网络环境。</p><p>• 这个教程假设你的内网服务已经运行在安卓设备上，如果服务运行在其他设备上，你可能需要额外的网络配置。</p><p>如果你在操作过程中遇到任何问题，可以查看Cloudflared的官方文档或者寻求社区的帮助。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Cloudflare </tag>
+            
+            <tag> Termux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo+Termux+GitHub搭建博客</title>
+      <link href="/2024/11/30/Hexo+Termux+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2024/11/30/Hexo+Termux+GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>全程开启魔法避免错误</p><ol><li><p>安装Termux和必要的工具首先，你需要在你的Android设备上安装Termux应用。然后，在Termux中执行以下命令来更新软件包列表并安装Node.js、Git等必要的工具：<br>pkg update &amp;&amp; pkg upgrade -y<br>pkg install nodejs-lts vim git -y</p></li><li><p>安装Hexo<br>npm install hexo-cli -g</p></li></ol><p>创建hexo文件夹<br>mkdir hexo</p><p>给予完全访问权限<br>chmod 777 hexo</p><p>切换到hexo目录<br>cd hexo</p><p>初始化项目<br>hexo init</p><p>请下载安装 pug 以及 stylus 的渲染器：<br>npm install hexo-renderer-pug hexo-renderer-stylus –save</p><p>生成静态页面<br>hexo g</p><ol start="3"><li><p>启动本地服务器预览博客在Hexo目录下启动本地服务器：<br>hexo s<br>访问   <a href="http://localhost:4000/">http://localhost:4000</a>   来预览你的博客。</p></li><li><p>部署到GitHub<br>进入GitHub创建一个仓库为 你的用户名+github.io</p></li></ol><p>配置必要信息<br>git config –global user.name “放你的Github用户名”<br>git config –global user.email “放你的Github登录邮箱”</p><p>安装openssh<br>pkg install openssh</p><p>生成连接密钥(一直回车)<br>ssh-keygen -t rsa -C “放你的Github登录邮箱”<br>根据路径(.ssh&#x2F;id_rsa.pub)找到这个文件，然后复制里面的全部内容</p><p>连接SSH，进入GitHub→Settings→SSH and GPG keys→New SSH key→Title 随便输入，Key 粘贴刚刚复制的内容，不要带有任何字符，点击Add SSH key<br>创建密钥，进入GitHub→Settings→Developer settings→Personal access tokens→Note 随便填→Expiration设置成永不→下面权限全勾上→Generate token(生成密钥后要记住，这只显示一次)</p><p>进入hexo目录_config.yml文件，滑到最下面，然后修改<br>deploy:<br>  type: git<br>  repo: <a href="https://github.com/%E4%BD%A0%E7%9A%84GitHub%E7%94%A8%E6%88%B7%E5%90%8D/%E4%BD%A0%E7%9A%84GitHub%E7%94%A8%E6%88%B7%E5%90%8D+.github.io.git">https://github.com/你的GitHub用户名/你的GitHub用户名+.github.io.git</a><br>  broanch: main</p><p>这已经大功告成了<br>每次上传到github需要输入以下命令<br>hexo clean  清理生成的静态文件<br>hexo g  生成静态文件<br>hexo d  上传到GitHub<br>一条一条太麻烦了，直接一条龙服务命令<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Termux </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> GitHub </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>极域电子教室破解</title>
       <link href="/2024/10/23/%E6%9E%81%E5%9F%9F%E7%94%B5%E5%AD%90%E6%95%99%E5%AE%A4%E7%A0%B4%E8%A7%A3/"/>
       <url>/2024/10/23/%E6%9E%81%E5%9F%9F%E7%94%B5%E5%AD%90%E6%95%99%E5%AE%A4%E7%A0%B4%E8%A7%A3/</url>
@@ -182,7 +238,7 @@
       <link href="/2024/03/20/Termux%20SSH%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
       <url>/2024/03/20/Termux%20SSH%20%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="连接服务器"><a href="#连接服务器" class="headerlink" title="连接服务器"></a>连接服务器</h1><p>首先需要在Termux上安装openssh</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install openssh</span><br></pre></td></tr></table></figure><p>安装完成后，在服务器控制台中找到服务器的IP地址，以127.0.0.1为例，在termux中键入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh root@127.0.0.1</span><br></pre></td></tr></table></figure><p>　　其中<strong>root</strong>是用户名，<strong>127.0.0.1</strong>是服务器IP地址。到时候直接替换就行了，然后根据提示输入密码就可以了</p><h1 id="设置免密登录"><a href="#设置免密登录" class="headerlink" title="设置免密登录"></a>设置免密登录</h1><p>　　通过设置服务器以公钥方式进行身份验证，我们可以简化登录流程，实现免密码登录。<br>所以Termux输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure><p>　　遇到任何选项都回车，生成的密钥文件会保存在termux的home目录下的.ssh文件夹中(这个文件夹不可以对group组开放权限)，使用cd命令进入该文件夹 [label color&#x3D;”pink”]&#x2F;data&#x2F;data&#x2F;com.termux&#x2F;files&#x2F;home&#x2F;.ssh[&#x2F;label] </p><p>　　之后使用vi或者vim打开<strong>id_rsa.pub</strong>(或者使用cp将<strong>id_rsa.pub</strong>文件拷贝到其他可读文件夹用txt格式打开)，将里面的内容全部复制。</p><p>　　登录服务器，进入用户目录(如果是root就进入&#x2F;root)，之后cd进入.ssh目录，ls后找到其中的authorized_keys文件，使用vim打开，然后把复制的内容全部粘贴进去，保存退出(不懂使用vim的可以<a href="https://www.runoob.com/linux/linux-vim.html">点我</a>了解vim基础使用)。<br> <br>   再次使用ssh <a href="mailto:&#x72;&#111;&#111;&#116;&#x40;&#49;&#50;&#x37;&#x2e;&#48;&#x2e;&#48;&#x2e;&#x31;">&#x72;&#111;&#111;&#116;&#x40;&#49;&#50;&#x37;&#x2e;&#48;&#x2e;&#48;&#x2e;&#x31;</a>登录服务器就不需要密码了。</p><h1 id="设备互联"><a href="#设备互联" class="headerlink" title="设备互联"></a>设备互联</h1><p>条件：两台设备都在同一局域网下</p><p>输入命令查看局域网</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure><p>然后换到要被连接的手机上操作，使用下面命令打开Termux的ssh连接。其中的-p 1234指定了ssh连接的端口，这个可以根据需求选，不添加改参数则将默认使用8022端口:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sshd -p 1234</span><br></pre></td></tr></table></figure><p>之后使用下面命令为被连接设备创建一个密码。根据提示键入两次密码即可:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd</span><br></pre></td></tr></table></figure><p>之后，在另一台设备上使用:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -p 端口(默认8022) user@ip地址</span><br></pre></td></tr></table></figure><p>　　根据提示键入密码即可连接。</p><p>　　同样的，我们可以在被连接设备上设置ssh公钥实现免密连接。</p><p>　　在被连接设备上使用vim打开并编辑位于~&#x2F;.ssh&#x2F;authorized_keys文件，将之前获取到的id_rsa.pub中的内容粘贴进去保存即可。注意authorized_keys文件权限必须是600。</p><p>　　上述操作也可以实现其他设备连接手机上的Termux终端。</p><h1 id="SSH的简单配置文件"><a href="#SSH的简单配置文件" class="headerlink" title="SSH的简单配置文件"></a>SSH的简单配置文件</h1><p>　　如果没有zsh或者其他的命令行插件，每次重新复制粘贴或者找ip，找密码确实是个麻烦的事。我们可以通过配置ssh文件来实现快捷登录。</p><p>　　首先，在用户的.ssh文件夹下新建一个名称为config的文件，注意不需要扩展名。Termux的.ssh文件夹一般在～&#x2F;.ssh。</p><p>在config文件里的配置可以这样写:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host 任何你想要的缩写类型，如ut，rt</span><br><span class="line">Hostname 指定连接的ip地址</span><br><span class="line">user 指定连接的用户名</span><br><span class="line">port 指定连接的端口</span><br></pre></td></tr></table></figure><p>之后就可以通过缩写快捷ssh登录(搭配ssh密钥使用更佳):</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh ut</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="连接服务器"><a href="#连接服务器" class="headerlink" title="连接服务器"></a>连接服务器</h1><p>首先需要在Termux上安装openssh</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install openssh</span><br></pre></td></tr></table></figure><p>安装完成后，在服务器控制台中找到服务器的IP地址，以127.0.0.1为例，在termux中键入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh root@127.0.0.1</span><br></pre></td></tr></table></figure><p>　　其中<strong>root</strong>是用户名，<strong>127.0.0.1</strong>是服务器IP地址。到时候直接替换就行了，然后根据提示输入密码就可以了</p><h1 id="设置免密登录"><a href="#设置免密登录" class="headerlink" title="设置免密登录"></a>设置免密登录</h1><p>　　通过设置服务器以公钥方式进行身份验证，我们可以简化登录流程，实现免密码登录。<br>所以Termux输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure><p>　　遇到任何选项都回车，生成的密钥文件会保存在termux的home目录下的.ssh文件夹中(这个文件夹不可以对group组开放权限)，使用cd命令进入该文件夹 [label color&#x3D;”pink”]&#x2F;data&#x2F;data&#x2F;com.termux&#x2F;files&#x2F;home&#x2F;.ssh[&#x2F;label] </p><p>　　之后使用vi或者vim打开<strong>id_rsa.pub</strong>(或者使用cp将<strong>id_rsa.pub</strong>文件拷贝到其他可读文件夹用txt格式打开)，将里面的内容全部复制。</p><p>　　登录服务器，进入用户目录(如果是root就进入&#x2F;root)，之后cd进入.ssh目录，ls后找到其中的authorized_keys文件，使用vim打开，然后把复制的内容全部粘贴进去，保存退出(不懂使用vim的可以<a href="https://www.runoob.com/linux/linux-vim.html">点我</a>了解vim基础使用)。<br> <br>   再次使用ssh <a href="mailto:&#x72;&#x6f;&#111;&#x74;&#64;&#x31;&#50;&#x37;&#46;&#48;&#46;&#x30;&#x2e;&#49;">&#x72;&#x6f;&#111;&#x74;&#64;&#x31;&#50;&#x37;&#46;&#48;&#46;&#x30;&#x2e;&#49;</a>登录服务器就不需要密码了。</p><h1 id="设备互联"><a href="#设备互联" class="headerlink" title="设备互联"></a>设备互联</h1><p>条件：两台设备都在同一局域网下</p><p>输入命令查看局域网</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure><p>然后换到要被连接的手机上操作，使用下面命令打开Termux的ssh连接。其中的-p 1234指定了ssh连接的端口，这个可以根据需求选，不添加改参数则将默认使用8022端口:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sshd -p 1234</span><br></pre></td></tr></table></figure><p>之后使用下面命令为被连接设备创建一个密码。根据提示键入两次密码即可:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd</span><br></pre></td></tr></table></figure><p>之后，在另一台设备上使用:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -p 端口(默认8022) user@ip地址</span><br></pre></td></tr></table></figure><p>　　根据提示键入密码即可连接。</p><p>　　同样的，我们可以在被连接设备上设置ssh公钥实现免密连接。</p><p>　　在被连接设备上使用vim打开并编辑位于~&#x2F;.ssh&#x2F;authorized_keys文件，将之前获取到的id_rsa.pub中的内容粘贴进去保存即可。注意authorized_keys文件权限必须是600。</p><p>　　上述操作也可以实现其他设备连接手机上的Termux终端。</p><h1 id="SSH的简单配置文件"><a href="#SSH的简单配置文件" class="headerlink" title="SSH的简单配置文件"></a>SSH的简单配置文件</h1><p>　　如果没有zsh或者其他的命令行插件，每次重新复制粘贴或者找ip，找密码确实是个麻烦的事。我们可以通过配置ssh文件来实现快捷登录。</p><p>　　首先，在用户的.ssh文件夹下新建一个名称为config的文件，注意不需要扩展名。Termux的.ssh文件夹一般在～&#x2F;.ssh。</p><p>在config文件里的配置可以这样写:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host 任何你想要的缩写类型，如ut，rt</span><br><span class="line">Hostname 指定连接的ip地址</span><br><span class="line">user 指定连接的用户名</span><br><span class="line">port 指定连接的端口</span><br></pre></td></tr></table></figure><p>之后就可以通过缩写快捷ssh登录(搭配ssh密钥使用更佳):</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh ut</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
