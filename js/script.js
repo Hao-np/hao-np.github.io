@@ -1,3 +1,12 @@
+/*var JsHDued=function(v){try {new Function(v)();} catch(e) {setTimeout(function (){JsHDued(v);},100);};};
+JsHDued(`document.getElementById("footer-wrap").style.background="#00FFFFFF";`);
+JsHDued(`document.getElementById("footer-wrap").style.color="#424242";`);
+JsHDued(`document.getElementsByTagName("a")[130].style.color="#424242";`);
+JsHDued(`document.getElementsByTagName("a")[129].style.color="#424242";`);
+JsHDued(`document.getElementsByTagName("a")[131].style.color="#424242";`);
+JsHDued(`document.getElementsByTagName("a")[132].style.color="#424242";`);
+*/
+
 /*建站时间js*/
 var blog_running_years = document.getElementById("blog_running_years");
 var blog_running_months = document.getElementById("blog_running_months");
