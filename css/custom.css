@@ -2,7 +2,10 @@
 .wl-power {
   display: none !important;
 }
-
+/* 隐藏Twikoo版权标识 */
+.tk-footer {
+  display: none;
+}
 /*哔哩哔哩视频适配*/
 .aspect-ratio {
   position: relative;
