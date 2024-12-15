@@ -151,6 +151,6 @@
 /* 假设公告的类名为 .notice */
 .home_notice {
   text-align: center; /* 居中文本 */
-  font-weight: bold; /* 加粗文本 */
+  /* font-weight: bold;  加粗文本 */
   font-size: 16px; /* 设置字体大小为16px */
 }
