@@ -3,7 +3,7 @@ var newYear = () => {
     clearTimeout(newYearTimer);
     if (!document.querySelector('#newYear')) return;
     // 新年时间戳 and 星期对象
-    let newYear = new Date('2025-01-29 00:00:00').getTime() / 1000,
+    let newYear = new Date('2025-01-27 00:00:00').getTime() / 1000,
         week = { 0: '周日', 1: '周一', 2: '周二', 3: '周三', 4: '周四', 5: '周五', 6: '周六' }
 
     time();
@@ -62,3 +62,4 @@ var newYear = () => {
 // 开了Pjax的用以下两句
 //document.addEventListener('pjax:complete', newYear);
 //document.addEventListener('DOMContentLoaded', newYear);
+newYear();

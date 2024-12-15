@@ -188,7 +188,8 @@
 #newYear p,
 #newYear h3 {
     font-weight: normal;
-    color: inherit;
+    color: #F1F3F5;
+    font-weight: bold;
     margin: 0;
 }
 
@@ -200,7 +201,7 @@
     min-height: 160px;
     padding: 1rem;
     position: relative;
-    border-radius: 12px;
+    border-radius: 5px;
     background-image: url(/img/2025.jpg);
     background-size: cover;
     background-position: center;
@@ -214,6 +215,7 @@
 #newYear-main .newYear-time {
     font-weight: bold;
     text-align: center;
+    color: #F1F3F5;
 }
 
 #newYear-main .time,
