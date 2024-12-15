@@ -35,7 +35,7 @@ if (window.localStorage.getItem("fpson") == undefined || window.localStorage.get
             } else if (fps <= 45) {
                 var kd = `<span style="color:#08b7e4">还不错哦😁</span>`
             } else {
-                var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`
+                var kd = `<span style="color:#6DC1F7">十分流畅🤣</span>`
             }
             document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;
             frame = 0;
