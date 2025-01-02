@@ -181,7 +181,7 @@ btf.addGlobalFn('pjaxSend', () => {
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
 <p>　　遇到任何选项都回车，生成的密钥文件会保存在termux的home目录下的.ssh文件夹中(这个文件夹不可以对group组开放权限)，使用cd命令进入该文件夹 [label color&#x3D;”pink”]&#x2F;data&#x2F;data&#x2F;com.termux&#x2F;files&#x2F;home&#x2F;.ssh[&#x2F;label] </p>
 <p>　　之后使用vi或者vim打开<strong>id_rsa.pub</strong>(或者使用cp将<strong>id_rsa.pub</strong>文件拷贝到其他可读文件夹用txt格式打开)，将里面的内容全部复制。</p>
-<p>　　登录服务器，进入用户目录(如果是root就进入&#x2F;root)，之后cd进入.ssh目录，ls后找到其中的authorized_keys文件，使用vim打开，然后把复制的内容全部粘贴进去，保存退出(不懂使用vim的可以<a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-vim.html">点我</a>了解vim基础使用)。<br> <br>   再次使用ssh <a href="mailto:&#x72;&#x6f;&#x6f;&#116;&#x40;&#x31;&#x32;&#x37;&#46;&#48;&#46;&#48;&#46;&#x31;">&#x72;&#x6f;&#x6f;&#116;&#x40;&#x31;&#x32;&#x37;&#46;&#48;&#46;&#48;&#46;&#x31;</a>登录服务器就不需要密码了。</p>
+<p>　　登录服务器，进入用户目录(如果是root就进入&#x2F;root)，之后cd进入.ssh目录，ls后找到其中的authorized_keys文件，使用vim打开，然后把复制的内容全部粘贴进去，保存退出(不懂使用vim的可以<a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-vim.html">点我</a>了解vim基础使用)。<br> <br>   再次使用ssh <a href="mailto:&#114;&#x6f;&#111;&#116;&#64;&#49;&#50;&#55;&#46;&#x30;&#46;&#x30;&#46;&#x31;">&#114;&#x6f;&#111;&#116;&#64;&#49;&#50;&#55;&#46;&#x30;&#46;&#x30;&#46;&#x31;</a>登录服务器就不需要密码了。</p>
 <h1 id="设备互联"><a href="#设备互联" class="headerlink" title="设备互联"></a>设备互联</h1><p>条件：两台设备都在同一局域网下</p>
 <p>输入命令查看局域网</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure>
