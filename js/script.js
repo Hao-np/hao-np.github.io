@@ -21,3 +21,15 @@ if (typeof bottomTimeIntervalHasSet == "undefined") {
         refresh_blog_running_time();
     }, 500);
 }
+
+// 监听 PJAX 请求完成事件
+document.addEventListener("pjax:complete", function() {
+    // 重新获取 DOM 元素
+    blog_running_days = document.getElementById("blog_running_days");
+    blog_running_hours = document.getElementById("blog_running_hours");
+    blog_running_mins = document.getElementById("blog_running_mins");
+    blog_running_secs = document.getElementById("blog_running_secs");
+
+    // 重新初始化计时器
+    refresh_blog_running_time();
+});
