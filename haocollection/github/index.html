@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开源项目收藏</title>
+    <link rel="stylesheet" href="../github/styles.css">
+</head>
+<body>
+    <div class="container">
+    <div>
+    <h1 style="margin-bottom: -10px;margin-top: 10px; text-align: center;">开源项目收藏</h1>
+    </div>
+        <div class="search-container">
+            <input type="search" id="search-input" placeholder="搜索..." aria-label="搜索框">
+            <button onclick="performSearch()"><b>搜索</b></button>
+        </div>
+    </div>
+    <div class="filterss">
+        <div class="filters">
+            <button class="filter-btn" onclick="filterLinks('all')"><b>全部</b></button>
+            <button class="filter-btn" onclick="filterLinks('apptool')"><b>APP工具</b></button>
+            <button class="filter-btn" onclick="filterLinks('appwanji')"><b>APP玩机</b></button>
+            <button class="filter-btn" onclick="filterLinks('appmk')"><b>APP模块</b></button>
+            <button class="filter-btn" onclick="filterLinks('Shizuku')"><b>Shizuku</b></button>
+            <button class="filter-btn" onclick="filterLinks('ipa')"><b>苹果APP</b></button>                      
+            <button class="filter-btn" onclick="filterLinks('blog')"><b>博客主题</b></button>
+            <button class="filter-btn" onclick="filterLinks('web')"><b>静态网站</b></button>
+            <button class="filter-btn" onclick="filterLinks('xqgg')"><b>稀奇古怪</b></button>
+            <button class="filter-btn" onclick="filterLinks('pcapp')"><b>PC软件</b></button>
+            <button class="filter-btn" onclick="filterLinks('qita')"><b>其他</b></button>
+            <button style="padding: 8px;background: #f1f3f5; border: none;"></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="link-cards" id="link-cards">
+            <!-- 动态生成的卡片将放置在这里 -->
+        </div>
+    </div>
+    <script src="../github/scripts.js"></script>
+    <footer class="footer">
+        <p>© 2025 Haoの收藏 | <a href="https://web.haonp.top">WebCollection</a></p>
+        <a href="../github">开源项目收藏</a>
+    </footer>
+</body>
+</html>

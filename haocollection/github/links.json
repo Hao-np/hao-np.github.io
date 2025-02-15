@@ -1,0 +1,467 @@
+[
+    {
+        "name": "PCAPdroid",
+        "introduce": "抓包工具",
+        "url": "https://github.com/emanuele-f/PCAPdroid",
+        "category": "apptool"
+    },
+    {
+        "name": "ProxyPin",
+        "introduce": "抓包工具",
+        "url": "https://github.com/wanghongenpin/proxypin",
+        "category": "apptool"
+    },
+    {
+        "name": "OpenAPI",
+        "introduce": "允许用户自定义 API 请求并以美观的方式展示返回的内容，包括图片、视频、语音和文本。通过简单的配置，用户可以解析 API 返回的 JSON 数据，并根据需要显示特定的字段。",
+        "url": "https://github.com/SwordHand/Open-API",
+        "category": "apptool"
+    },
+    {
+        "name": "AndroidIDE",
+        "introduce": "移动端AndroidStudio",
+        "url": "https://github.com/AndroidIDEOfficial/AndroidIDE",
+        "category": "apptool"
+    },
+    {
+        "name": "Termux",
+        "introduce": "移动端Linux命令模拟器",
+        "url": "https://github.com/termux/termux-app",
+        "category": "apptool"
+    },
+    {
+        "name": "ZeroTermux",
+        "introduce": "Termux第三方增强版",
+        "url": "https://github.com/hanxinhao000/ZeroTermux",
+        "category": "apptool"
+    },
+    {
+        "name": "质感文件",
+        "introduce": "文件管理器",
+        "url": "https://github.com/zhanghai/MaterialFiles",
+        "category": "apptool"
+    },
+    {
+        "name": "AList",
+        "introduce": "移动端AList网盘挂载工具",
+        "url": "https://github.com/jing332/AListFlutter",
+        "category": "apptool"
+    },
+    {
+        "name": "Aliyundrive",
+        "introduce": "移动端阿里云盘挂载工具",
+        "url": "https://github.com/messense/aliyundrive-webdav",
+        "category": "apptool"
+    },
+    {
+        "name": "localsend",
+        "introduce": "无需互联网传输分享工具",
+        "url": "https://github.com/localsend/localsend",
+        "category": "apptool"
+    },
+    {
+        "name": "HybridFileXfer",
+        "introduce": "多轨快传，同时使用USB和5G与2.4GWIFI等通道传输文件到电脑，榨干手机IO！",
+        "url": "https://github.com/weixiansen574/HybridFileXfer",
+        "category": "apptool"
+    },
+    {
+        "name": "ImageToolbox",
+        "introduce": "功能强大的图片编辑工具",
+        "url": "https://github.com/T8RIN/ImageToolbox",
+        "category": "apptool"
+    },
+    {
+        "name": "Seal",
+        "introduce": "支持的数千个视频平台下载视频与音频",
+        "url": "https://github.com/JunkFood02/Seal",
+        "category": "apptool"
+    },
+    {
+        "name": "QQ版本列表实用工具",
+        "introduce": "可以猜QQ内测版本",
+        "url": "https://github.com/klxiaoniu/QQVersionList",
+        "category": "apptool"
+    },
+    {
+        "name": "MusicFree",
+        "introduce": "免费听歌软件",
+        "url": "https://github.com/maotoumao/MusicFree",
+        "category": "apptool"
+    },
+    {
+        "name": "哔哩缓存导出",
+        "introduce": "如题",
+        "url": "https://github.com/10miaomiao/bili-down-out",
+        "category": [
+            "apptool",
+            "Shizuku"
+        ]
+    },
+    {
+        "name": "Markor",
+        "introduce": "Markdown写作编辑器",
+        "url": "https://github.com/gsantner/markor",
+        "category": "apptool"
+    },
+    {
+        "name": "Quillpad",
+        "introduce": "Markdown笔记软件",
+        "url": "https://github.com/quillpad/quillpad",
+        "category": "apptool"
+    },
+    {
+        "name": "BeauTyXT",
+        "introduce": "Markdown写作编辑器",
+        "url": "https://github.com/soupslurpr/BeauTyXT",
+        "category": "apptool"
+    },
+    {
+        "name": "Thunderbird",
+        "introduce": "邮箱APP",
+        "url": "https://github.com/thunderbird/thunderbird-android",
+        "category": "apptool"
+    },
+    {
+        "name": "桌面习惯",
+        "introduce": "打卡自律软件",
+        "url": "https://github.com/FriesI23/mhabit",
+        "category": "apptool"
+    },
+    {
+        "name": "习惯",
+        "introduce": "打卡自律软件",
+        "url": "https://github.com/iSoron/uhabits",
+        "category": "apptool"
+    },
+    {
+        "name": "GreenStash",
+        "introduce": "购物目标清单，购物存钱罐",
+        "url": "https://github.com/Pool-Of-Tears/GreenStash",
+        "category": "apptool"
+    },
+    {
+        "name": "KeePassDX",
+        "introduce": "密码管理工具",
+        "url": "https://github.com/Kunzisoft/KeePassDX",
+        "category": "apptool"
+    },
+    {
+        "name": "Kazumi",
+        "introduce": "自定义规则的番剧采集APP",
+        "url": "https://github.com/Predidit/Kazumi?tab=readme-ov-file",
+        "category": [
+            "apptool",
+            "ipa"
+        ]
+    },
+    {
+        "name": "Animeko",
+        "introduce": "集找番、追番、看番的一站式弹幕追番平台",
+        "url": "https://github.com/open-ani/animeko",
+        "category": "apptool"
+    },
+    {
+        "name": "Nagram",
+        "introduce": "第三方Telegram",
+        "url": "https://github.com/NextAlone/Nagram",
+        "category": "apptool"
+    },
+    {
+        "name": "Nekogram.",
+        "introduce": "第三方Telegram",
+        "url": "https://nekogram.app/",
+        "category": "apptool"
+    },
+    {
+        "name": "Telegram X",
+        "introduce": "Telegram极速版",
+        "url": "https://github.com/TGX-Android/Telegram-X",
+        "category": "apptool"
+    },
+    {
+        "name": "Droid-ify",
+        "introduce": "第三方F-Droid客户端",
+        "url": "https://github.com/Droid-ify/client",
+        "category": "apptool"
+    },
+    {
+        "name": "Obtainium",
+        "introduce": "第三方F-Droid客户端",
+        "url": "https://github.com/ImranR98/Obtainium",
+        "category": "apptool"
+    },
+    {
+        "name": "Neo-Store",
+        "introduce": "第三方F-Droid客户端",
+        "url": "https://github.com/NeoApplications/Neo-Store",
+        "category": "apptool"
+    },
+    {
+        "name": "Shadowrocket",
+        "introduce": "小火箭官方安卓移动端",
+        "url": "https://github.com/Pawdroid/shadowrocket_for_android",
+        "category": "apptool"
+    },
+    {
+        "name": "Amarok",
+        "introduce": "Amarok是一款轻量级隐私保护工具，一键隐藏你的隐私文件和应用。",
+        "url": "https://github.com/deltazefiro/Amarok-Hider",
+        "category": "apptool"
+    },
+    {
+        "name": "SongTube",
+        "introduce": "第三方YouTube",
+        "url": "https://github.com/SongTube/SongTube-App",
+        "category": "apptool"
+    },
+    {
+        "name": "FluxTube",
+        "introduce": "第三方YouTube",
+        "url": "https://github.com/mu-fazil-vk/FluxTube",
+        "category": "apptool"
+    },
+    {
+        "name": "FadCam",
+        "introduce": "后台利用摄像头录制视频(意思就是兔偷拍别人)",
+        "url": "https://github.com/anonfaded/FadCam",
+        "category": "apptool"
+    },
+    {
+        "name": "GKD",
+        "introduce": "利用无障碍自动点击器，可以用来关闭广告",
+        "url": "https://github.com/gkd-kit/gkd",
+        "category": "appwanji"
+    },
+    {
+        "name": "QuickTiles(快速瓷砖)",
+        "introduce": "控制中心添加快捷瓷砖",
+        "url": "https://github.com/flxholle/QuickTiles",
+        "category": "appwanji"
+    },
+    {
+        "name": "TrebleCheck",
+        "introduce": "(检测手机是否支持gsl)用于确定设备是否支持 Project Treble、A/B（无缝）系统更新和系统作为根。此外，它还可以确定被测试设备的 CPU 架构。这些数据用于帮助用户选择在其设备上使用的 GSI。",
+        "url": "https://github.com/kevintresuelo/treble",
+        "category": "appwanji"
+    },
+    {
+        "name": "EasterEggs",
+        "introduce": "收集了Android系统各正式版的彩蛋",
+        "url": "https://github.com/hushenghao/AndroidEasterEggs",
+        "category": "appwanji"
+    },
+    {
+        "name": "小小电脑",
+        "introduce": "安卓端真正的电脑模拟器",
+        "url": "https://github.com/Cateners/tiny_computer",
+        "category": "appwanji"
+    },
+    {
+        "name": "LogFox",
+        "introduce": "观察并获取有关 Java/JNI 崩溃和 ANR 的通知",
+        "url": "https://github.com/F0x1d/LogFox",
+        "category": [
+            "appwanji",
+            "Shizuku"
+        ]
+    },
+    {
+        "name": "ColorBlendr",
+        "introduce": "自定义MaterialYou颜色",
+        "url": "https://github.com/Mahmud0808/ColorBlendr",
+        "category": [
+            "appwanji",
+            "Shizuku"
+        ]
+    },
+    {
+        "name": "InstallerX",
+        "introduce": "应用安装器",
+        "url": "https://github.com/iamr0s/InstallerX",
+        "category": [
+            "appwanji",
+            "Shizuku"
+        ]
+    },
+    {
+        "name": "InstallWithOptions",
+        "introduce": "应用安装器",
+        "url": "https://github.com/zacharee/InstallWithOptions",
+        "category": [
+            "appwanji",
+            "Shizuku"
+        ]
+    },
+    {
+        "name": "aShellYou",
+        "introduce": "在您的设备或其他设备上运行 ADB 命令",
+        "url": "https://github.com/DP-Hridayan/aShellYou",
+        "category": [
+            "appwanji",
+            "Shizuku"
+        ]
+    },
+    {
+        "name": "SimpleHook",
+        "introduce": "hook",
+        "url": "https://github.com/littleWhiteDuck/SimpleHook",
+        "category": "appwanji"
+    },
+    {
+        "name": "Blocker",
+        "introduce": "SDK/跟踪器，可以用来关闭广告(完全关闭)",
+        "url": "https://github.com/lihenggui/blocker",
+        "category": "appwanji"
+    },
+    {
+        "name": "数据备份",
+        "introduce": "用ROOT完全备份",
+        "url": "https://github.com/XayahSuSuSu/Android-DataBackup",
+        "category": "appwanji"
+    },
+    {
+        "name": "Neo-Backup",
+        "introduce": "用ROOT完全备份",
+        "url": "https://github.com/NeoApplications/Neo-Backup",
+        "category": "appwanji"
+    },
+    {
+        "name": "应用隐藏列表",
+        "introduce": "用来应用检测隐藏环境",
+        "url": "https://github.com/Dr-TSNG/Hide-My-Applist",
+        "category": "appwanji"
+    },
+    {
+        "name": "启动笼罩",
+        "introduce": "为所有应用显示原生SplashScreen界面(小米更适配)",
+        "url": "https://github.com/GSWXXN/RestoreSplashScreen",
+        "category": [
+            "appwanji",
+            "appmk"
+        ]
+    },
+    {
+        "name": "EasyEUICC/OpenEUICC",
+        "introduce": "eSIM LPA（本地配置文件助手）",
+        "url": "https://github.com/hzy132/OpenEUICC_for_Magisk",
+        "category": [
+            "apptool",
+            "appwanji"
+        ]
+    },
+    {
+        "name": "GiffgaffHook",
+        "introduce": "用于模拟支持 eSIM 和捕获配置文件激活码（显示在 LSPosed 日志中）。",
+        "url": "https://github.com/LSOIVNE/Giffgaff-Hook",
+        "category": "appmk"
+    },
+    {
+        "name": "SignHook",
+        "introduce": "签名校验通杀模块",
+        "url": "https://github.com/xihan123/SignHook",
+        "category": "appmk"
+    },
+    {
+        "name": "米客",
+        "introduce": "小米系统插件",
+        "url": "https://github.com/MonwF/customiuizer",
+        "category": "appmk"
+    },
+    {
+        "name": "HookVip",
+        "introduce": "如标题",
+        "url": "https://github.com/Xposed-Modules-Repo/com.bug.hookvip",
+        "category": "appmk"
+    },
+    {
+        "name": "QAuxiliary",
+        "introduce": "QQ增强模块",
+        "url": "https://github.com/cinit/QAuxiliary",
+        "category": "appmk"
+    },
+    {
+        "name": "虚拟摄像头",
+        "introduce": "如题",
+        "url": "https://github.com/sandyz987/XVirtualCamera",
+        "category": "appmk"
+    },
+    {
+        "name": "JumpReplay",
+        "introduce": "Xposed Hook Android Intent/Scheme",
+        "url": "https://github.com/FourTwooo/JumpReplay",
+        "category": "appmk"
+    },
+    {
+        "name": "雪藏HsFreezer",
+        "introduce": "一款调度计算机资源的进程管理软件 and 游戏暂停冻结软件 and 老板键平替软件 and .....自定义软件)",
+        "url": "https://github.com/superDMS/HsFreezer-Hidden-in-the-snow-",
+        "category": "pcapp"
+    },
+    {
+        "name": "Files",
+        "introduce": "文件管理器",
+        "url": "https://github.com/files-community/Files",
+        "category": "pcapp"
+    },
+    {
+        "name": "DevToys",
+        "introduce": "开发人员工具箱",
+        "url": "https://github.com/DevToys-app/DevToys",
+        "category": "pcapp"
+    },
+    {
+        "name": "AnLink",
+        "introduce": "安卓设备投屏电脑",
+        "url": "https://github.com/AnLinkSoft/AnLinkTranslation",
+        "category": "pcapp"
+    },
+    {
+        "name": "NoteGen",
+        "introduce": "记录和写作的跨端 AI 笔记",
+        "url": "https://github.com/codexu/note-gen",
+        "category": "pcapp"
+    },
+    {
+        "name": "MoeKoeMusic",
+        "introduce": "第三方酷狗",
+        "url": "https://github.com/iAJue/MoeKoeMusic",
+        "category": "pcapp"
+    },
+    {
+        "name": "Coolapk UWP",
+        "introduce": "一个基于UWP平台的第三方酷安客户端",
+        "url": "https://github.com/Coolapk-UWP/Coolapk-UWP",
+        "category": "pcapp"
+    },
+    {
+        "name": "Bili.Copilot",
+        "introduce": "第三方bilibili",
+        "url": "https://github.com/Richasy/Bili.Copilot",
+        "category": "pcapp"
+    },
+    {
+        "name": "Bili备份",
+        "introduce": "一键对B站账号进行数据备份和还原",
+        "url": "https://github.com/hzhilong/bilibili-backup",
+        "category": "pcapp"
+    },
+    {
+        "name": "BBDown",
+        "introduce": "一个命令行式哔哩哔哩下载器.",
+        "url": "https://github.com/nilaoda/BBDown",
+        "category": "pcapp"
+    },
+    {
+        "name": "FrpAndroid",
+        "introduce": "不知道干嘛用的",
+        "url": "https://github.com/jing332/FrpAndroid",
+        "category": "qita"
+    },
+    {
+        "name": "android-iperf3",
+        "introduce": "不知道干嘛用的",
+        "url": "https://github.com/davidBar-On/android-iperf3",
+        "category": "qita"
+    }
+]
