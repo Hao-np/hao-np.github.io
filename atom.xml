@@ -6,7 +6,7 @@
   <link href="https://haonp.top/atom.xml" rel="self"/>
   
   <link href="https://haonp.top/"/>
-  <updated>2025-03-11T17:39:13.847Z</updated>
+  <updated>2025-03-23T16:33:45.762Z</updated>
   <id>https://haonp.top/</id>
   
   <author>
@@ -17,13 +17,67 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>iPhone-SE安装巨魔</title>
+    <link href="https://haonp.top/2025/03/23/20/"/>
+    <id>https://haonp.top/2025/03/23/20/</id>
+    <published>2025-03-23T12:56:56.000Z</published>
+    <updated>2025-03-23T16:33:45.762Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note warning flat"><p>我的系统版本是15.8.3</p></div><h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ol><li>下载巨魔商店安装器<br><a href="https://github.com/alfiecg24/TrollInstallerX">前往安装</a></li><li>用电脑爱思助手签名</li></ol><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><ol><li>关闭设备查找</li><li>用电脑安装爱思助手<br>安装完成之后，前往设置→通用→VPN与设备管理→点击证书→点击信任</li><li>开启魔法</li><li>点击安装器→Install TrollStore→提示(主要是选择一个你不常用的系统应用)→然后就安装成功了</li></ol><h1 id="汉化"><a href="#汉化" class="headerlink" title="汉化"></a>汉化</h1><p>这里需要注意，巨魔商店是什么版本。就要选择对应版本的汉化包。要不会闪退</p><ol><li><a href="https://github.com/sbwml/TrollStore_zh_Hans">前往下载</a></li><li>点击分享，用巨魔商店打开。(这里会黑屏，等一下就行了)</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="玩机" scheme="https://haonp.top/categories/playphone/"/>
+    
+    
+    <category term="iPhone" scheme="https://haonp.top/tags/iPhone/"/>
+    
+    <category term="巨魔" scheme="https://haonp.top/tags/%E5%B7%A8%E9%AD%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iPhone降级记录</title>
+    <link href="https://haonp.top/2025/03/20/23/"/>
+    <id>https://haonp.top/2025/03/20/23/</id>
+    <published>2025-03-20T15:45:01.000Z</published>
+    <updated>2025-03-23T16:14:53.858Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="iPhone-4S"><a href="#iPhone-4S" class="headerlink" title="iPhone 4S"></a>iPhone 4S</h1><h1 id="iPod-touch-5"><a href="#iPod-touch-5" class="headerlink" title="iPod touch 5"></a>iPod touch 5</h1><p>降级到8.4.1</p><ol><li>用爱思助手越狱</li><li>寻找一个越狱园源，下载Filza<br>(连手机热点或者开启魔法添加源)</li><li>修改系统版本，6以下的都行</li><li>地区改成美国，并且不能登录ID</li><li>重启手机</li></ol><h2 id="登录ID"><a href="#登录ID" class="headerlink" title="登录ID"></a>登录ID</h2><p>抹除设备到激活界面登录</p><h2 id="登录Apple-store"><a href="#登录Apple-store" class="headerlink" title="登录Apple store"></a>登录Apple store</h2><p>输上账号密码，第一次提示错误，但是会像其他设备发送验证码。<br>第二次返回设置主界面，再点进去登录，再输一遍密码，再加上后面的验证码</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="玩机" scheme="https://haonp.top/categories/playphone/"/>
+    
+    
+    <category term="iPhone" scheme="https://haonp.top/tags/iPhone/"/>
+    
+    <category term="越狱" scheme="https://haonp.top/tags/%E8%B6%8A%E7%8B%B1/"/>
+    
+    <category term="降级" scheme="https://haonp.top/tags/%E9%99%8D%E7%BA%A7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>苹果5s越狱记录</title>
     <link href="https://haonp.top/2025/03/11/23/"/>
     <id>https://haonp.top/2025/03/11/23/</id>
     <published>2025-03-11T15:30:35.000Z</published>
-    <updated>2025-03-11T17:39:13.847Z</updated>
+    <updated>2025-03-14T23:58:23.039Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="越狱"><a href="#越狱" class="headerlink" title="越狱"></a>越狱</h2><p>通过爱思助手一键越狱工具</p><h2 id="越狱源"><a href="#越狱源" class="headerlink" title="越狱源"></a>越狱源</h2><p><a href="https://apt.cydia.pro/">https://apt.cydia.pro</a><br><a href="https://apt.25mao.com/">https://apt.25mao.com</a><br><a href="https://apt.wxhbts.pro/">https://apt.wxhbts.pro</a><br><a href="https://havoc.app/">https://havoc.app</a></p><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><h3 id="ReProvision"><a href="#ReProvision" class="headerlink" title="ReProvision"></a>ReProvision</h3><p>免电脑自签APP自动续签插件</p><h3 id="AppStore"><a href="#AppStore" class="headerlink" title="AppStore++"></a>AppStore++</h3><p>降级神器iOS10-13</p><h3 id="HideSerialNum-ber"><a href="#HideSerialNum-ber" class="headerlink" title="HideSerialNum ber"></a>HideSerialNum ber</h3><p>隐藏信息伪装序列号等相关信息</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="越狱"><a href="#越狱" class="headerlink" title="越狱"></a>越狱</h2><p>通过爱思助手一键越狱工具</p><h2 id="越狱源"><a href="#越狱源" class="headerlink" title="越狱源"></a>越狱源</h2><p><a href="https://apt.cydia.pro/">https://apt.cydia.pro</a><br><a href="https://apt.25mao.com/">https://apt.25mao.com</a><br><a href="https://apt.wxhbts.pro/">https://apt.wxhbts.pro</a><br><a href="https://havoc.app/">https://havoc.app</a></p><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><h3 id="ReProvision"><a href="#ReProvision" class="headerlink" title="ReProvision"></a>ReProvision</h3><p>免电脑自签APP自动续签插件</p><h3 id="AppStore"><a href="#AppStore" class="headerlink" title="AppStore++"></a>AppStore++</h3><p>降级神器iOS10-13</p><h3 id="HideSerialNum-ber"><a href="#HideSerialNum-ber" class="headerlink" title="HideSerialNum ber"></a>HideSerialNum ber</h3><p>隐藏信息伪装序列号等相关信息</p><h3 id="FlyJB"><a href="#FlyJB" class="headerlink" title="FlyJB"></a>FlyJB</h3><p>隐藏越狱</p><h3 id="CarPlay汽车互联解锁"><a href="#CarPlay汽车互联解锁" class="headerlink" title="CarPlay汽车互联解锁"></a>CarPlay汽车互联解锁</h3><p>解锁设备中，任何APP使其支持CarPlay</p>]]></content>
     
     
       
@@ -47,7 +101,7 @@
     <link href="https://haonp.top/2025/02/19/13/"/>
     <id>https://haonp.top/2025/02/19/13/</id>
     <published>2025-02-19T05:57:51.000Z</published>
-    <updated>2025-02-19T06:16:30.912Z</updated>
+    <updated>2025-03-23T16:34:41.050Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>分享一下我的日常生活必装APP</p><h1 id="钱迹"><a href="#钱迹" class="headerlink" title="钱迹"></a>钱迹</h1><p>用来记账，并且还有存钱计划，这个功能个人感觉非常实用<br>支持全平台终端，多设备支持</p><h1 id="榴莲日记"><a href="#榴莲日记" class="headerlink" title="榴莲日记"></a>榴莲日记</h1><p>多平台支持，网盘数据备份。<br>个人感觉比较好用</p><h1 id="To-Do"><a href="#To-Do" class="headerlink" title="To Do"></a>To Do</h1><p>免费好用的目标清单软件</p><h1 id="桌上习惯"><a href="#桌上习惯" class="headerlink" title="桌上习惯"></a>桌上习惯</h1><p>习惯打卡APP<br>缺少一个，我感觉比较实用的功能，每个打卡的日子不能添加备注或者小记</p><h1 id="倒数日"><a href="#倒数日" class="headerlink" title="倒数日"></a>倒数日</h1><p>安卓端适配的不是很好，iOS适配的很nice</p><h1 id="记得日子"><a href="#记得日子" class="headerlink" title="记得日子"></a>记得日子</h1><p>和倒数日差不多，但是安卓端iOS端适配三能一样</p><h1 id="KeePassDX"><a href="#KeePassDX" class="headerlink" title="KeePassDX"></a>KeePassDX</h1><p>用来记密码的</p><h1 id="Authenticator"><a href="#Authenticator" class="headerlink" title="Authenticator"></a>Authenticator</h1><p>用来记TOTP码的</p>]]></content>
     
@@ -73,7 +127,7 @@
     <link href="https://haonp.top/2025/02/05/17/"/>
     <id>https://haonp.top/2025/02/05/17/</id>
     <published>2025-02-05T09:11:22.000Z</published>
-    <updated>2025-02-19T06:02:18.192Z</updated>
+    <updated>2025-03-23T16:35:09.754Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="GiffGaff-英"><a href="#GiffGaff-英" class="headerlink" title="GiffGaff-英"></a>GiffGaff-英</h1><p>giffgaff.com</p><h1 id="RedteaGo-国际"><a href="#RedteaGo-国际" class="headerlink" title="RedteaGo-国际"></a>RedteaGo-国际</h1><p>redteago.com</p><h1 id="3HK-港"><a href="#3HK-港" class="headerlink" title="3HK-港"></a>3HK-港</h1><p>three.com.hk</p><h1 id="Tello-美"><a href="#Tello-美" class="headerlink" title="Tello-美"></a>Tello-美</h1><p>tello.com</p><h1 id="WeTalk-美"><a href="#WeTalk-美" class="headerlink" title="WeTalk-美"></a>WeTalk-美</h1><p>wetalkapp.com</p>]]></content>
     
@@ -99,7 +153,7 @@
     <link href="https://haonp.top/2025/02/04/19/"/>
     <id>https://haonp.top/2025/02/04/19/</id>
     <published>2025-02-04T11:24:22.000Z</published>
-    <updated>2025-02-19T06:02:45.988Z</updated>
+    <updated>2025-03-23T16:35:21.598Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="白嫖激活码"><a href="#白嫖激活码" class="headerlink" title="白嫖激活码"></a>白嫖激活码</h1><p>根据你买的激活码，这接改字母改数字，慢慢猜就行了<br><strong>不能用0，0用Q代替</strong></p><h1 id="无需ESIM手机开通ESIM"><a href="#无需ESIM手机开通ESIM" class="headerlink" title="无需ESIM手机开通ESIM"></a>无需ESIM手机开通ESIM</h1><p><strong>要用安卓手机，苹果不行</strong><br>需要利用开源项目<a href="https://github.com/LSOIVNE/Giffgaff-Hook">Giffgaff-Hook</a>让GiffGaff-APP识别你为ESIM手机。并且它还可以抓包，让你实现ESTK、9SIM…等卡，实现USIM管理。</p><ol><li>如果你的手机已经root，利用lsp直接勾选这个模块就行了</li><li>没有root的手机可以利用虚拟机，或者内置这个模块</li></ol>]]></content>
     
@@ -125,7 +179,7 @@
     <link href="https://haonp.top/2025/02/02/10/"/>
     <id>https://haonp.top/2025/02/02/10/</id>
     <published>2025-02-02T02:11:22.000Z</published>
-    <updated>2025-02-12T22:40:22.993Z</updated>
+    <updated>2025-03-23T16:35:33.910Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这些URL Schemes可以在浏览器中输入或通过其他应用调用，实现快速跳转至应用的特定页面或功能。<br>请注意，这些链接的有效性可能受到应用版本更新的影响。</p><h1 id="音乐APP"><a href="#音乐APP" class="headerlink" title="音乐APP"></a>音乐APP</h1><h2 id="网易云"><a href="#网易云" class="headerlink" title="网易云"></a>网易云</h2><p>打开歌曲<br><code>orpheus://song/歌曲ID/?autoplay=1</code><br>发笔记<br><code>orpheus://rnpage?component=rn-community-note-publish&amp;</code><br>发图文<br><code>orpheus://pubevent?</code><br>不知道干嘛的<br><code>orpheus://nm/share/producePic</code>?positionCode&#x3D;<br>打开用户界面<br><code>orpheus://user/</code><br>双人音乐之旅<br><code>orpheus://nm/memberLink/dynamic?positionCode=double_space_portal_target_position&amp;relationId=</code><br>音乐播���外链<br><code>https://music.163.com/song/media/outer/url?id=歌曲ID.mp3</code><br>歌曲链接<br><code>https://music.163.com/#/song?id=歌曲ID</code><br>歌单链接<br><code>https://music.163.com/#/playlist?id=歌单ID</code><br>专辑链接<br><code>https://music.163.com/#/album?id=专辑ID</code><br>艺人链接<br><code>https://music.163.com/#/artist?id=艺人ID</code></p><h1 id="社交APP"><a href="#社交APP" class="headerlink" title="社交APP"></a>社交APP</h1><h2 id="QQ"><a href="#QQ" class="headerlink" title="QQ"></a>QQ</h2><p>打开QQ联系人资料卡：<br><code>mqqapi://card/show_pslcard?src_type=internal&amp;version=1&amp;uin=QQ号</code><br>打开QQ群资料卡：<br><code>mqqapi://card/show_pslcard?src_type=internal&amp;version=1&amp;card_type=group&amp;uin=QQ群号</code><br>打开QQ与指定用户聊天：<br><code>mqq://im/chat?chat_type=wpa&amp;uin=QQ号</code></p><h2 id="Telegram"><a href="#Telegram" class="headerlink" title="Telegram"></a>Telegram</h2><p>加好友，加群组：<br><code>tg:resolve?domain=账号ID</code></p><h1 id="影视APP"><a href="#影视APP" class="headerlink" title="影视APP"></a>影视APP</h1><h2 id="哔哩哔哩"><a href="#哔哩哔哩" class="headerlink" title="哔哩哔哩"></a>哔哩哔哩</h2><p>打开哔哩哔哩视频：<br>使用<code>bilibili://video/</code>后跟视频的av号或bv号可以直接打开哔哩哔哩并播放视频。</p><p>打开用户主页：<br>使用<code>bilibili://space/</code>后跟用户UID可以打开用户的个人主页。</p><p>打开直播间：<br>使用<code>bilibili://live/</code>后跟直播间ID可以打开直播间。</p><p>哔哩哔哩搜索：<br>使用<code>bilibili://search?keyword=&#123;关键词&#125;</code>可以打开哔哩哔哩应用并搜索指定关键词。</p><h1 id="社区APP"><a href="#社区APP" class="headerlink" title="社区APP"></a>社区APP</h1><h2 id="酷安"><a href="#酷安" class="headerlink" title="酷安"></a>酷安</h2><p>编辑精选：<br><code>coolmarket://com.coolapk.market/page?url=V8_ZHUANTI_20180327</code><br>每日热闻：<br><code>coolmarket://com.coolapk.market/page?url=V8_JINRI_NEWS</code><br>应用管理：<br><code>coolmarket://com.coolapk.market/app_manager</code><br>酷图：<br><code>coolmarket://com.coolapk.market/page?url=V9_HOME_TAB_COOLPIC</code><br>二手市场：<br><code>coolmarket://com.coolapk.market/page?url=V11_DISCOVERY_SECOND_HAND</code><br>今日酷安banner：<br><code>coolmarket://com.coolapk.market/page?url=V8_BANNER_005</code><br>新上架应用：<br><code>coolmarket://com.coolapk.market/apk/newestList</code></p>]]></content>
     
@@ -192,9 +246,9 @@
     <category term="教程" scheme="https://haonp.top/categories/course/"/>
     
     
-    <category term="Cloudflare" scheme="https://haonp.top/tags/Cloudflare/"/>
-    
     <category term="Termux" scheme="https://haonp.top/tags/Termux/"/>
+    
+    <category term="Cloudflare" scheme="https://haonp.top/tags/Cloudflare/"/>
     
   </entry>
   
@@ -218,11 +272,11 @@
     <category term="教程" scheme="https://haonp.top/categories/course/"/>
     
     
-    <category term="Termux" scheme="https://haonp.top/tags/Termux/"/>
-    
     <category term="Hexo" scheme="https://haonp.top/tags/Hexo/"/>
     
     <category term="GitHub" scheme="https://haonp.top/tags/GitHub/"/>
+    
+    <category term="Termux" scheme="https://haonp.top/tags/Termux/"/>
     
   </entry>
   
@@ -434,11 +488,11 @@
     <category term="干货" scheme="https://haonp.top/categories/dried-food/"/>
     
     
+    <category term="Termux" scheme="https://haonp.top/tags/Termux/"/>
+    
     <category term="Cloudflare" scheme="https://haonp.top/tags/Cloudflare/"/>
     
     <category term="DNS" scheme="https://haonp.top/tags/DNS/"/>
-    
-    <category term="Termux" scheme="https://haonp.top/tags/Termux/"/>
     
     <category term="Python" scheme="https://haonp.top/tags/Python/"/>
     
@@ -479,7 +533,7 @@
     <published>2024-03-20T05:17:00.000Z</published>
     <updated>2025-02-12T22:40:22.993Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="连接服务器"><a href="#连接服务器" class="headerlink" title="连接服务器"></a>连接服务器</h1><p>首先需要在Termux上安装openssh</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install openssh</span><br></pre></td></tr></table></figure><p>安装完成后，在服务器控制台中找到服务器的IP地址，以127.0.0.1为例，在termux中键入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh root@127.0.0.1</span><br></pre></td></tr></table></figure><p>　　其中<strong>root</strong>是用户名，<strong>127.0.0.1</strong>是服务器IP地址。到时候直接替换就行了，然后根据提示输入密码就可以了</p><h1 id="设置免密登录"><a href="#设置免密登录" class="headerlink" title="设置免密登录"></a>设置免密登录</h1><p>　　通过设置服务器以公钥方式进行身份验证，我们可以简化登录流程，实现免密码登录。<br>所以Termux输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure><p>　　遇到任何选项都回车，生成的密钥文件会保存在termux的home目录下的.ssh文件夹中(这个文件夹不可以对group组开放权限)，使用cd命令进入该文件夹 [label color&#x3D;”pink”]&#x2F;data&#x2F;data&#x2F;com.termux&#x2F;files&#x2F;home&#x2F;.ssh[&#x2F;label] </p><p>　　之后使用vi或者vim打开<strong>id_rsa.pub</strong>(或者使用cp将<strong>id_rsa.pub</strong>文件拷贝到其他可读文件夹用txt格式打开)，将里面的内容全部复制。</p><p>　　登录服务器，进入用户目录(如果是root就进入&#x2F;root)，之后cd进入.ssh目录，ls后找到其中的authorized_keys文件，使用vim打开，然后把复制的内容全部粘贴进去，保存退出(不懂使用vim的可以<a href="https://www.runoob.com/linux/linux-vim.html">点我</a>了解vim基础使用)。<br> <br>   再次使用ssh <a href="mailto:&#x72;&#x6f;&#x6f;&#116;&#x40;&#x31;&#50;&#x37;&#x2e;&#x30;&#46;&#48;&#46;&#x31;">&#x72;&#x6f;&#x6f;&#116;&#x40;&#x31;&#50;&#x37;&#x2e;&#x30;&#46;&#48;&#46;&#x31;</a>登录服务器就不需要密码了。</p><h1 id="设备互联"><a href="#设备互联" class="headerlink" title="设备互联"></a>设备互联</h1><p>条件：两台设备都在同一局域网下</p><p>输入命令查看局域网</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure><p>然后换到要被连接的手机上操作，使用下面命令打开Termux的ssh连接。其中的-p 1234指定了ssh连接的端口，这个可以根据需求选，不添加改参数则将默认使用8022端口:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sshd -p 1234</span><br></pre></td></tr></table></figure><p>之后使用下面命令为被连接设备创建一个密码。根据提示键入两次密码即可:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd</span><br></pre></td></tr></table></figure><p>之后，在另一台设备上使用:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -p 端口(默认8022) user@ip地址</span><br></pre></td></tr></table></figure><p>　　根据提示键入密码即可连接。</p><p>　　同样的，我们可以在被连接设备上设置ssh公钥实现免密连接。</p><p>　　在被连接设备上使用vim打开并编辑位于~&#x2F;.ssh&#x2F;authorized_keys文件，将之前获取到的id_rsa.pub中的内容粘贴进去保存即可。注意authorized_keys文件权限必须是600。</p><p>　　上述操作也可以实现其他设备连接手机上的Termux终端。</p><h1 id="SSH的简单配置文件"><a href="#SSH的简单配置文件" class="headerlink" title="SSH的简单配置文件"></a>SSH的简单配置文件</h1><p>　　如果没有zsh或者其他的命令行插件，每次重新复制粘贴或者找ip，找密码确实是个麻烦的事。我们可以通过配置ssh文件来实现快捷登录。</p><p>　　首先，在用户的.ssh文件夹下新建一个名称为config的文件，注意不需要扩展名。Termux的.ssh文件夹一般在～&#x2F;.ssh。</p><p>在config文件里的配置可以这样写:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host 任何你想要的缩写类型，如ut，rt</span><br><span class="line">Hostname 指定连接的ip地址</span><br><span class="line">user 指定连接的用户名</span><br><span class="line">port 指定连接的端口</span><br></pre></td></tr></table></figure><p>之后就可以通过缩写快捷ssh登录(搭配ssh密钥使用更佳):</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh ut</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="连接服务器"><a href="#连接服务器" class="headerlink" title="连接服务器"></a>连接服务器</h1><p>首先需要在Termux上安装openssh</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install openssh</span><br></pre></td></tr></table></figure><p>安装完成后，在服务器控制台中找到服务器的IP地址，以127.0.0.1为例，在termux中键入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh root@127.0.0.1</span><br></pre></td></tr></table></figure><p>　　其中<strong>root</strong>是用户名，<strong>127.0.0.1</strong>是服务器IP地址。到时候直接替换就行了，然后根据提示输入密码就可以了</p><h1 id="设置免密登录"><a href="#设置免密登录" class="headerlink" title="设置免密登录"></a>设置免密登录</h1><p>　　通过设置服务器以公钥方式进行身份验证，我们可以简化登录流程，实现免密码登录。<br>所以Termux输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure><p>　　遇到任何选项都回车，生成的密钥文件会保存在termux的home目录下的.ssh文件夹中(这个文件夹不可以对group组开放权限)，使用cd命令进入该文件夹 [label color&#x3D;”pink”]&#x2F;data&#x2F;data&#x2F;com.termux&#x2F;files&#x2F;home&#x2F;.ssh[&#x2F;label] </p><p>　　之后使用vi或者vim打开<strong>id_rsa.pub</strong>(或者使用cp将<strong>id_rsa.pub</strong>文件拷贝到其他可读文件夹用txt格式打开)，将里面的内容全部复制。</p><p>　　登录服务器，进入用户目录(如果是root就进入&#x2F;root)，之后cd进入.ssh目录，ls后找到其中的authorized_keys文件，使用vim打开，然后把复制的内容全部粘贴进去，保存退出(不懂使用vim的可以<a href="https://www.runoob.com/linux/linux-vim.html">点我</a>了解vim基础使用)。<br> <br>   再次使用ssh <a href="mailto:&#x72;&#111;&#111;&#116;&#64;&#49;&#50;&#x37;&#x2e;&#x30;&#x2e;&#x30;&#x2e;&#x31;">&#x72;&#111;&#111;&#116;&#64;&#49;&#50;&#x37;&#x2e;&#x30;&#x2e;&#x30;&#x2e;&#x31;</a>登录服务器就不需要密码了。</p><h1 id="设备互联"><a href="#设备互联" class="headerlink" title="设备互联"></a>设备互联</h1><p>条件：两台设备都在同一局域网下</p><p>输入命令查看局域网</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure><p>然后换到要被连接的手机上操作，使用下面命令打开Termux的ssh连接。其中的-p 1234指定了ssh连接的端口，这个可以根据需求选，不添加改参数则将默认使用8022端口:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sshd -p 1234</span><br></pre></td></tr></table></figure><p>之后使用下面命令为被连接设备创建一个密码。根据提示键入两次密码即可:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd</span><br></pre></td></tr></table></figure><p>之后，在另一台设备上使用:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -p 端口(默认8022) user@ip地址</span><br></pre></td></tr></table></figure><p>　　根据提示键入密码即可连接。</p><p>　　同样的，我们可以在被连接设备上设置ssh公钥实现免密连接。</p><p>　　在被连接设备上使用vim打开并编辑位于~&#x2F;.ssh&#x2F;authorized_keys文件，将之前获取到的id_rsa.pub中的内容粘贴进去保存即可。注意authorized_keys文件权限必须是600。</p><p>　　上述操作也可以实现其他设备连接手机上的Termux终端。</p><h1 id="SSH的简单配置文件"><a href="#SSH的简单配置文件" class="headerlink" title="SSH的简单配置文件"></a>SSH的简单配置文件</h1><p>　　如果没有zsh或者其他的命令行插件，每次重新复制粘贴或者找ip，找密码确实是个麻烦的事。我们可以通过配置ssh文件来实现快捷登录。</p><p>　　首先，在用户的.ssh文件夹下新建一个名称为config的文件，注意不需要扩展名。Termux的.ssh文件夹一般在～&#x2F;.ssh。</p><p>在config文件里的配置可以这样写:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host 任何你想要的缩写类型，如ut，rt</span><br><span class="line">Hostname 指定连接的ip地址</span><br><span class="line">user 指定连接的用户名</span><br><span class="line">port 指定连接的端口</span><br></pre></td></tr></table></figure><p>之后就可以通过缩写快捷ssh登录(搭配ssh密钥使用更佳):</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh ut</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -495,62 +549,6 @@
     <category term="Termux" scheme="https://haonp.top/tags/Termux/"/>
     
     <category term="SSH" scheme="https://haonp.top/tags/SSH/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>让你的小飞机邮箱登录</title>
-    <link href="https://haonp.top/2024/02/22/22/"/>
-    <id>https://haonp.top/2024/02/22/22/</id>
-    <published>2024-02-22T14:39:00.000Z</published>
-    <updated>2025-02-12T22:40:22.993Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>由于国内手机号老是收不到验证码，所以就用接码平台，但是接码平台都是一次性的，退出之后就再也登不回来了，所以就要邮箱登录</p></div><h1 id="注册条件"><a href="#注册条件" class="headerlink" title="注册条件"></a>注册条件</h1><ol><li>需要Telegram和TelegramX这两个客户端，所以需要用到安卓手机</li><li>可以在2到3天内接码的手机号</li></ol><h1 id="教程开始"><a href="#教程开始" class="headerlink" title="教程开始"></a>教程开始</h1><ol><li>下载这两个客户端好后，先登录Telegram，登录之后就用不到了，全是TelegramX操作</li><li>登录TelegramX，然后他会把验证码发送到Telegram但是不要登录</li><li>TelegramX选择没有收到验证码，然后他会提示用手机号发送验证码，用手机号发送过来的验证码登录</li><li>然后TelegramX一直重复这样的操作，让官方知道你在浪费他的短信钱，之后它就会提示你20多个小时之后再操作</li><li>等到20多个小时之后，你再上TelegramX登录，它就会提示，请输入有效的电子邮箱地址，最后根据提示操作就行了<br><img src="http://shp.qpic.cn/collector/1902119341/5e00213d-44ee-4fba-8623-f4fddbef0a38/0" alt="提示操作"></li><li>成功之后，你可以把X删了，也可以不删</li></ol><h1 id="最后说明"><a href="#最后说明" class="headerlink" title="最后说明"></a>最后说明</h1><p>　　这样操作之后，你的这台设备就会被官方标记，之后再进行这样的操作，就不会再禁用20多个小时了，就会直接提示请输入有效的电子邮箱地址。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="干货" scheme="https://haonp.top/categories/dried-food/"/>
-    
-    
-    <category term="Telegram" scheme="https://haonp.top/tags/Telegram/"/>
-    
-    <category term="TelegramX" scheme="https://haonp.top/tags/TelegramX/"/>
-    
-    <category term="邮箱" scheme="https://haonp.top/tags/%E9%82%AE%E7%AE%B1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>华为鸿蒙ADB无线调试</title>
-    <link href="https://haonp.top/2024/02/15/19/"/>
-    <id>https://haonp.top/2024/02/15/19/</id>
-    <published>2024-02-15T11:27:00.000Z</published>
-    <updated>2025-02-12T22:40:22.993Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note blue icon-padding flat"><i class="note-icon fas fa-bullhorn"></i><p>华为手机并不能像其他安卓机一样，开启ADB无线调试，就很麻烦。但是华为手机开启ADB无线调试需要用到电脑，开机后，你手机只要不关机，基本上是不会掉的。</p></div><h1 id="开启USB调试"><a href="#开启USB调试" class="headerlink" title="开启USB调试"></a>开启USB调试</h1><ol><li>打开设置</li><li>点击关于手机</li><li>然后一直点软件版本，开启开发者模式</li><li>退到设置首页，点击系统和更新</li><li>点击开发人员选项</li><li>开启USB调试</li></ol><h1 id="ADB连接手机"><a href="#ADB连接手机" class="headerlink" title="ADB连接手机"></a>ADB连接手机</h1><p>　　电脑usb插上鸿蒙手机，弹出框中确认进行usb调试，添加信任。你可以直接用Win的cmd连接，也可以用<a href="https://lsdy.top/gjzs">搞机助手</a>等等，我这里用搞机助手来展示。</p><ol><li>点击扩展<br><img src="http://shp.qpic.cn/collector/1902119341/965bf4e9-4ca0-4f82-a712-4330d78cb892/0" alt="点击扩展"></li><li>点击cmd命令行<br><img src="http://shp.qpic.cn/collector/1902119341/11c37082-3f86-422c-82e0-8f6e4d4056c8/0" alt="点击cmd命令行"></li></ol><h1 id="开启adb调试"><a href="#开启adb调试" class="headerlink" title="开启adb调试"></a>开启adb调试</h1><ol><li><p>收入下方这行命令，查看是否连接成功</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb devices</span><br></pre></td></tr></table></figure><p>成功显示为<br><img src="http://shp.qpic.cn/collector/1902119341/24cd5b04-1f3a-485e-8bb9-1f4c4b0224b0/0" alt="检测成功"></p></li><li><p>输入这行命令开启无线调试，然后就可以，把线拔了(5555是端口号，也可以是其他的，但是不要被占用。)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb tcpip 5555</span><br></pre></td></tr></table></figure><p>成功显示为<br><img src="http://shp.qpic.cn/collector/1902119341/7b926660-8734-43a2-97d0-7ca8e727dfd9/0" alt="检测成功"></p></li><li><p>最后就可以用ADB甲壳虫助手等等，这些软件来直接连接了。</p></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="玩机" scheme="https://haonp.top/categories/playphone/"/>
-    
-    
-    <category term="HUAWEI" scheme="https://haonp.top/tags/HUAWEI/"/>
-    
-    <category term="ADB" scheme="https://haonp.top/tags/ADB/"/>
-    
-    <category term="无线调试" scheme="https://haonp.top/tags/%E6%97%A0%E7%BA%BF%E8%B0%83%E8%AF%95/"/>
     
   </entry>
   
